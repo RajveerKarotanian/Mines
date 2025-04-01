@@ -202,6 +202,7 @@ public class Mines extends JFrame implements ActionListener{
 		// set size and location of frame
 		setSize(width, height);  
 		getContentPane().setBackground(Color.DARK_GRAY);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
 		setVisible(true);
 		setResizable(false);
